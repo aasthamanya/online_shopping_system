@@ -1,0 +1,66 @@
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+		}
+form {border: 3px solid #f1f1f1;}
+.group
+{
+	padding : 16px;
+	text-align: center;
+}
+.b{
+	background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1138257321%2F960x0.jpg%3Ffit%3Dscale");
+  width:100%;
+  height: 800px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h{
+text-align:center;
+color:red;
+}
+input[type=email],input[type=password]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color : red;
+  }
+  input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+</style>
+<html>
+<body>
+<form method="post" class="b" action="loginuser.php">
+<div class="group">
+<br>
+<br>
+<br>
+<h1 class="h"> Login Here </h1>
+<label for="email"><b>Enter Email</b></label>
+<br>
+<input type="email" value="email" name="email">
+<br>
+<label for="password"><b>Enter Password</b></label>
+<br>
+<input type="password" value="password" name="password" placeholder="password">
+<br>
+<input type="submit" value="submit" name="submit">
+</div>
+</form>
+</body>
+</html>
+
